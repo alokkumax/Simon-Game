@@ -50,3 +50,31 @@ button{
 .b{
     background-color: blue;
 }
+@media ( max-width:540px) {
+    h1{
+        font-size: 30px;
+        margin-top: 5rem;
+    }
+    button{
+        width: 150px;
+        height: 150px;
+    }
+    main{
+         display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media ( max-width:390px) {
+  
+    button{
+        width: 120px;
+        height: 120px;
+        margin: 1rem;
+        border: 5px solid black;
+        border-radius: 35px;
+        cursor: pointer;
+    }
+    
+    
+}
